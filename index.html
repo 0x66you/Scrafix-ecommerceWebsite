@@ -401,22 +401,23 @@ $(document).ready(()=>{
 })
 </script>
 <script>
-$( document ).ready(function() {
-    $('.nav-close').click(function(){
-        $('.navbar div').removeClass('show');
-    });    
-
-    $('.single').click(function(){
+       $( document ).ready(function() {
+        $('.nav-close').click(function(){
             $('.navbar div').removeClass('show');
-    });
-    $("#myInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("tr").filter(function() {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });    
+
+        $('.single').click(function(){
+                $('.navbar div').removeClass('show');
         });
-    });
-});
+        $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+  });
 </script>
+
 <script src="main.js" type="module"></script>
 </body>
 </html>
