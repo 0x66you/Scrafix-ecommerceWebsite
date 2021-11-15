@@ -1,0 +1,1032 @@
+body {
+    font-family: 'Noto Serif TC', serif;
+    max-width: 1440px;
+    min-width:559px;
+    background:#fff;
+}
+.navbar {
+    background:#ec9c46;
+}
+
+.nav-link{
+    color:#ded0b7;
+    margin-right:1em !important;
+    font-size:20px;
+}
+
+.nav-link:hover {
+    /*background: #ded0b7;*/
+    color:#fff;
+}
+
+.nav-link:active {
+    color:#ded0b7;
+}
+.nav-link:focus {
+    color:#ded0b7;
+}
+
+.dropdown-toggle {
+    padding-top: 8px;
+    font-size: 18px;
+}
+.navbar-brand, .navbar-brand:hover {
+    color:#fff;
+    font-size:50px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.navbar-toggler {
+    background: #ec9c46;
+    color:#000;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input{
+    text-align: center;
+}
+
+router-link a{
+    text-decoration: none;
+}
+
+
+.m-container {
+    background: #501b1d;
+    color: #c38d9e;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling {
+  animation: marquee 90s linear infinite;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+a.noUnderline {
+    text-decoration: none;
+ }
+ a.noUnderline:hover {
+     text-decoration: underline;
+ }
+ 
+ .checkOutButton {
+     background:#c80004;
+     width:110px;
+     height:24px;
+     padding:1px 4px;
+     font-size:13px;
+     text-shadow: 1px 1px 0 #000;
+     color:#fff;
+     text-align: left;
+     letter-spacing: 0;
+     box-shadow: 1px 1px 2px rgba(255,255,255,.8) inset,-1px -1px 2px rgba(0,0,0,.8) inset;
+     z-index:1;
+     border:none;
+     font-family: 'Noto Sans TC', sans-serif;
+     font-weight:400;
+ }
+ 
+ .wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #0c0032;
+ }
+ 
+ .hero-headline {
+     background-size: 100% 200%;
+     background: radial-gradient(#eff1ff, #000) 50% 100%;
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin: 0;
+     font-size: 2rem
+ }
+ 
+ .photoframeHeader{
+     width:100%;
+     display: inline-block;
+     padding:0;
+     margin: 0;
+     border: gray 1px solid;
+     border-radius: 3px;
+     background-size: cover;
+     box-shadow: 2px 2px 0 gray,
+                 3px 3px 4px rgba(0,0,0,.9),
+                 6px 6px 12px 4px rgba(0,0,0,.25),
+                 0 0 14px 4px rgba(0,0,0,.15);
+ }
+ 
+ .photoframe{
+     width:fit-content;
+     display: inline-block;
+     margin:1rem 0;
+     border: gray 1px solid;
+     border-radius: 3px;
+     background-size: cover;
+     box-shadow: 2px 2px 0 gray,
+                 3px 3px 4px rgba(0,0,0,.9),
+                 6px 6px 12px 4px rgba(0,0,0,.25),
+                 0 0 14px 4px rgba(0,0,0,.15);
+ }
+ 
+ .categoryLinks {
+     font-family: 'Noto Sans TC', sans-serif;
+     font-weight: 700;
+     text-decoration: none;
+     color:#cafafe;
+     width:160px;
+ }
+ .categoryLinks:hover {
+     color:#fff;
+ }
+ .liCategoryLinks{
+     border-bottom:1px solid #ded0b7;
+     margin-left: auto;
+     margin-right:auto;
+ }
+ 
+ .liCategoryLinks:hover {
+     background:#41b3a3;
+ }
+ 
+ 
+ img.smallproperty {
+     width:160px;
+     height:45px;
+ }
+ 
+ .movingContainer {
+    margin-top:10px;
+    position:relative;
+    width:100%;
+    height:4400px;
+    background:#282828;
+ }
+ 
+ .image-container {
+    height:fit-content;
+    width:100%;
+    padding-top:51%;
+    position:sticky;
+    top: 140px;
+    background-size:cover;
+    background-color:#eff3f4;
+    background-image:url('https://i.ibb.co/D922r0S/frame39.jpg');
+ 
+ }
+ 
+ .text-container {
+    width:fit-content;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    white-space: nowrap;
+    font-family: 'applefont',sans-serif;
+     
+ }
+ .text-container2 {
+     color:#f56300;
+    width:fit-content;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    white-space: nowrap;
+    font-family: 'applefontregular',sans-serif;
+}
+.text-container3 {
+    color:#282828;
+    width:fit-content;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    white-space: nowrap;
+    font-family: 'applefont',sans-serif;
+}
+
+.leftInMainPage, .rightInMainPage, .onMainPage, #leftLogo1, #leftLogo2,
+#leftLogo3,#leftLogo4,#leftLogo5,#leftLogo6,#leftLogo7{
+    position:fixed;
+    z-index:100;
+}
+
+#leftLogo1, #leftLogo2,
+#leftLogo3,#leftLogo4,#leftLogo5,#leftLogo6,#leftLogo7{
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+@media only screen and (min-width: 1440px) {
+    #mainpartTable{
+        width:800px;
+    }
+    #itemNameSize{
+        font-size:18px;
+    }
+    #itemImageSize{
+        width:180px;
+        height:180px;
+    }
+    #descFontSize{
+        font-size:13px;
+    }
+    span.spaceBetImg {
+        margin-left:20px;
+    }
+    .text-container {
+        font-size:5em;
+        transform:translateY(-290%);
+    }
+    .text-container2{
+        font-size:32px;
+        transform: translateY(-960%);
+    }
+    .text-container3{
+        font-size:35px;
+        transform: translateY(-860%);
+    }
+    .leftInMainPage {
+        top:130px;
+        transform:translateX(0%);
+    }
+    .rightInMainPage {
+        width:310px;
+        top:135px;
+        transform:translateX(318%);
+    }
+    .onMainPage{
+        top:410px;
+        letter-spacing: -18px;
+        transform:translateX(170%);
+        font-family:applefont,sans-serif;
+        font-size:80px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:50px;
+        width:200px;
+        transform:translateX(110%);
+    }
+    #leftLogo2 img{
+        margin-top:150px;
+        width:170px;
+        transform:translateX(136%);
+    }
+    #leftLogo3 img{
+        margin-top:210px;
+        width:163px;
+        transform:translateX(144%);
+    }
+    #leftLogo4 img{
+        margin-top:290px;
+        width:190px;
+        transform:translateX(118%);
+    }
+    #leftLogo5 img{
+        margin-top:375px;
+        width:150px;
+        transform:translateX(164%);
+    }
+    #leftLogo6 img{
+        margin-top:445px;
+        width:160px;
+        transform:translateX(150%);
+    }
+    #leftLogo7 img{
+        margin-top:510px;
+        width:175px;
+        transform:translateX(130%);
+    }
+    .loginSignWidth {
+        width:822px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:800px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #mainpartTable{
+        width:800px;
+    }
+    #itemNameSize{
+        font-size:18px;
+    }
+    #itemImageSize{
+        width:180px;
+        height:180px;
+    }
+    #descFontSize{
+        font-size:13px;
+    }
+    span.spaceBetImg {
+        margin-left:20px;
+    }
+    .text-container {
+        font-size:5em;
+        transform:translateY(-290%);
+    }
+    .text-container2{
+        font-size:32px;
+        transform: translateY(-960%);
+    }
+    .text-container3{
+        font-size:35px;
+        transform: translateY(-860%);
+    }
+    .leftInMainPage {
+        top:130px;
+        transform:translateX(0%);
+    }
+    .rightInMainPage {
+        width:310px;
+        top:135px;
+        transform:translateX(318%);
+    }
+    .onMainPage{
+        top:410px;
+        letter-spacing: -18px;
+        transform:translateX(170%);
+        font-family:applefont,sans-serif;
+        font-size:80px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:50px;
+        width:200px;
+        transform:translateX(110%);
+    }
+    #leftLogo2 img{
+        margin-top:150px;
+        width:170px;
+        transform:translateX(136%);
+    }
+    #leftLogo3 img{
+        margin-top:210px;
+        width:163px;
+        transform:translateX(144%);
+    }
+    #leftLogo4 img{
+        margin-top:290px;
+        width:190px;
+        transform:translateX(118%);
+    }
+    #leftLogo5 img{
+        margin-top:375px;
+        width:150px;
+        transform:translateX(164%);
+    }
+    #leftLogo6 img{
+        margin-top:445px;
+        width:160px;
+        transform:translateX(150%);
+    }
+    #leftLogo7 img{
+        margin-top:510px;
+        width:175px;
+        transform:translateX(130%);
+    }
+    .loginSignWidth {
+        width:822px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+
+    .cartInnerWidth{
+        width:800px;
+    }
+    .col1 {
+        width:55px;
+    }
+    .col3 {
+        width:48px;
+    }
+    .col4 {
+        width:80px;
+    }
+    .col5 {
+        width:80px;
+    }
+    .col6 {
+        width:52px;
+    }
+}
+
+@media only screen and (max-width:1399px){
+    #mainpartTable{
+        width:618px;
+    }
+    #itemNameSize{
+        font-size:18px;
+    }
+    #itemImageSize{
+        width:160px;
+        height:160px;
+    }
+    #descFontSize{
+        font-size:12px;
+    }
+    span.spaceBetImg {
+        margin-left:20px;
+    }
+    .text-container {
+        font-size:4.6em;
+        transform:translateY(-280%);
+    }
+    .text-container2{
+        font-size:28px;
+        transform: translateY(-940%);
+    }
+    .text-container3{
+        font-size:35px;
+        transform: translateY(-760%);
+    }
+    .leftInMainPage {
+        top:130px;
+        transform:translateX(0%);
+    }
+    .rightInMainPage {
+        width:310px;
+        top:135px;
+        transform:translateX(260%);
+    }
+    .onMainPage{
+        top:385px;
+        letter-spacing: -18px;
+        transform:translateX(150%);
+        font-family:applefont,sans-serif;
+        font-size:80px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:25px;
+        width:190px;
+        transform:translateX(110%);
+    }
+    #leftLogo2 img{
+        margin-top:125px;
+        width:160px;
+        transform:translateX(136%);
+    }
+    #leftLogo3 img{
+        margin-top:185px;
+        width:153px;
+        transform:translateX(144%);
+    }
+    #leftLogo4 img{
+        margin-top:265px;
+        width:180px;
+        transform:translateX(118%);
+    }
+    #leftLogo5 img{
+        margin-top:350px;
+        width:140px;
+        transform:translateX(164%);
+    }
+    #leftLogo6 img{
+        margin-top:420px;
+        width:150px;
+        transform:translateX(150%);
+    }
+    #leftLogo7 img{
+        margin-top:485px;
+        width:165px;
+        transform:translateX(130%);
+    }
+    .loginSignWidth {
+        width:642px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:620px;
+    }
+}
+
+@media only screen and (max-width:1199px){
+    #mainpartTable {
+        width: 936px;
+    }
+    #itemNameSize{
+        font-size:18px;
+    }
+    #itemImageSize{
+        width:170px;
+        height:170px;
+    }
+    #descFontSize{
+        font-size:13px;
+    }
+    span.spaceBetImg {
+        margin-left:20px;
+    }
+    .text-container {
+        font-size:3.8em;
+        transform:translateY(-280%);
+    }
+    .text-container2{
+        font-size:24px;
+        transform: translateY(-950%);
+    }
+    .text-container3{
+        font-size:28px;
+        transform: translateY(-785%);
+    }
+
+
+    .leftInMainPage {
+        top:130px;
+        transform:translateX(0%);
+    }
+    .rightInMainPage {
+        width:736px;
+        top:650px;
+        transform:translateX(27%);
+
+    }
+    .onMainPage{
+        top:330px;
+        letter-spacing: -18px;
+        transform:translateX(125%);
+        font-family:applefont,sans-serif;
+        font-size:75px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:480px;
+        width:205px;
+        transform:translateX(100%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo2 img{
+        display:none;
+    }
+    #leftLogo3 img{
+        margin-top:497px;
+        width:160px;
+        transform:translateX(300%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo4 img{
+        margin-top:505px;
+        width:180px;
+        transform:translateX(400%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo5 img{
+        margin-top:590px;
+        width:140px;
+        transform:translateX(350%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo6 img{
+        margin-top:590px;
+        width:160px;
+        transform:translateX(141%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo7 img{
+        margin-top:590px;
+        width:165px;
+        transform:translateX(435%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+
+    .loginSignWidth {
+        width:462px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:462px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    #mainpartTable{
+        width:696px;
+    }
+    #itemNameSize{
+        font-size:18px;
+    }
+    #itemImageSize{
+        width:160px;
+        height:160px;
+    }
+    #descFontSize{
+        font-size:11px;
+    }
+    span.spaceBetImg {
+        margin-left:20px;
+    }
+    .text-container {
+        font-size:3em;
+        transform:translateY(-259%);
+    }
+    .text-container2{
+        font-size:19px;
+        transform: translateY(-920%);
+
+    }
+    .text-container3{
+        font-size:21px;
+        transform: translateY(-795%);
+    }
+
+    
+    .leftInMainPage {
+        display:none;
+    }
+    .rightInMainPage {
+        width:695px;
+        top:570px;
+        transform:translateX(0%);
+    }
+    .onMainPage{
+        top:285px;
+        letter-spacing: -18px;
+        transform:translateX(127%);
+        font-family:applefont,sans-serif;
+        font-size:60px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:360px;
+        width:205px;
+        transform:translateX(20%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo2 img{
+        display:block;
+        margin-top:300px;
+        width:190px;
+        transform:translateX(20%);
+    }
+    #leftLogo3 img{
+        margin-top:220px;
+        width:150px;
+        transform:translateX(42%);
+        -webkit-filter: invert(0%); /* Safari/Chrome */
+        filter: invert(0%);
+    }
+    #leftLogo4 img{
+        margin-top:80px;
+        width:200px;
+        transform:translateX(25%);
+        -webkit-filter: invert(0%); /* Safari/Chrome */
+        filter: invert(0%);
+    }
+    #leftLogo5 img{
+        margin-top:160px;
+        width:140px;
+        transform:translateX(65%);
+        -webkit-filter: invert(0%); /* Safari/Chrome */
+        filter: invert(0%);
+    }
+    #leftLogo6 img{
+        margin-top:475px;
+        width:160px;
+        transform:translateX(40%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo7 img{
+        margin-top:550px;
+        width:165px;
+        transform:translateX(35%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    .loginSignWidth {
+        width:694px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:700px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #mainpartTable{
+        width:516px;
+    }
+    #itemNameSize{
+        font-size:15px;
+    }
+    #itemImageSize{
+        width:150px;
+        height:150px;
+    }
+    #descFontSize{
+        font-size:10px;
+    }
+    span.spaceBetImg {
+        margin-left:10px;
+    }
+    .text-container {
+        font-size:2.1em;
+        transform:translateY(-290%);
+    }
+    .text-container2{
+        font-size:15px;
+        transform: translateY(-850%);
+
+    }
+    .text-container3{
+        font-size:18px;
+        transform: translateY(-700%);
+    }
+    .leftInMainPage {
+        display:none;
+    }
+    .rightInMainPage {
+        width:515px;
+        top:533px;
+        transform:translateX(0%);
+    }
+    .onMainPage{
+        top:248px;
+        letter-spacing: -18px;
+        transform:translateX(112%);
+        font-family:applefont,sans-serif;
+        font-size:52px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:290px;
+        width:150px;
+        transform:translateX(130%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo2 img{
+        margin-top:365px;
+        width:146px;
+        transform:translateX(124%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo3 img{
+        margin-top:410px;
+        width:110px;
+        transform:translateX(189%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo4 img{
+        margin-top:470px;
+        width:140px;
+        transform:translateX(138%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo5 img{
+        margin-top:533px;
+        width:90px;
+        transform:translateX(245%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(1000%);
+    }
+    #leftLogo6 img{
+        margin-top:581px;
+        width:113px;
+        transform:translateX(183%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo7 img{
+        margin-top:632px;
+        width:130px;
+        transform:translateX(146%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    .loginSignWidth {
+        width:514px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:520px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #mainpartTable{
+        width:535px;
+    }
+    #itemNameSize{
+        font-size:14px;
+    }
+    #itemImageSize{
+        width:140px;
+        height:140px;
+    }
+    #descFontSize{
+        font-size:10px;
+    }
+    span.spaceBetImg {
+        margin-left:15px;
+    }
+
+    .text-container {
+        font-size:2.1em;
+        transform:translateY(-300%);
+    }
+    .text-container2{
+        font-size:15px;
+        transform: translateY(-850%);
+
+    }
+    .text-container3{
+        font-size:18px;
+        transform: translateY(-700%);
+    }
+    .leftInMainPage {
+        display:none;
+    }
+    .rightInMainPage {
+        width:534px;
+        top:533px;
+        transform:translateX(0%);
+    }
+    .onMainPage{
+        top:248px;
+        letter-spacing: -18px;
+        transform:translateX(112%);
+        font-family:applefont,sans-serif;
+        font-size:54px;
+        line-height: 1.05;
+    }
+    #leftLogo1 img{
+        margin-top:290px;
+        width:150px;
+        transform:translateX(130%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo2 img{
+        margin-top:365px;
+        width:146px;
+        transform:translateX(124%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo3 img{
+        margin-top:410px;
+        width:110px;
+        transform:translateX(189%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo4 img{
+        margin-top:470px;
+        width:140px;
+        transform:translateX(138%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo5 img{
+        margin-top:533px;
+        width:90px;
+        transform:translateX(245%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(1000%);
+    }
+    #leftLogo6 img{
+        margin-top:581px;
+        width:113px;
+        transform:translateX(183%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    #leftLogo7 img{
+        margin-top:632px;
+        width:130px;
+        transform:translateX(146%);
+        -webkit-filter: invert(100%); /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    .loginSignWidth {
+        width:533px;
+    }
+    .loginSignInnerWidth {
+        width:400px;
+    }
+    .cartInnerWidth{
+        width:530px;
+    }
+}
+
+@font-face {
+    font-family: applefont;
+    src: url(./fonts/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+    font-family: applefontregular;
+    src: url(./fonts/SF-Pro-Text-Regular.otf);
+}
+
+btn:focus, a:focus
+{
+         outline: none;
+}
+.navbar-toggler:focus
+{
+         outline: none !important;
+         box-shadow: none;
+}
+
+
+.cancelbutton {
+    color:#222;
+    padding:2px 4px;
+    background:#eee;
+    border:1px solid #037;
+    border-color:#59c #037 #037 #59c;
+    text-align:center;
+    cursor:pointer;
+    font-size:12px;
+}
+th {
+    border:2px solid white;
+    font-size:15px;
+    color:#777;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:400;
+}
+td {
+    border-top:2px solid white;
+    border-bottom:2px solid #ded0b7;
+}
+td:nth-child(2){
+    font-size:12px;
+}
+th:first-child, th:nth-child(3){
+    text-align:center;
+    vertical-align: middle;;
+}
+th:nth-child(4), th:nth-child(5) {
+    text-align: right;
+}
+#logoutButton:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#checkoutButton {
+    float:right;
+    width:100%;
+    position:relative;
+    background:#ffe8e8;
+    color:#777;
+    text-align:center;
+    cursor:pointer;
+    border-radius: 0px 0px 5px 5px;
+    font-size:15px;
+}
+
+#checkoutButton:hover {
+    background:#000;
+    color:white;
+}
