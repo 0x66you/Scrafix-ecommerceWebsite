@@ -54,7 +54,7 @@
                 </button>
                 <div class="collapse navbar-collapse pt-5 mt-2" id="navbarNavAltMarkup">
                     <div class="input-group" style="margin-left:auto;margin-right:auto; height:40px; max-width:300px">
-                        <input type="search" class="form-control rounded-pill" placeholder="找商品? 請輸入關鍵字">
+                        <input id="searchInput" type="search" class="form-control rounded-pill" placeholder="找商品? 請輸入關鍵字">
                         <button class="btn rounded-pill border-0" type="button" id="button-addon2">
                             <i class="fa fa-search"></i>
                         </button>
@@ -401,16 +401,21 @@ $(document).ready(()=>{
 })
 </script>
 <script>
-       $( document ).ready(function() {
-        $('.nav-close').click(function(){
+$( document ).ready(function() {
+    $('.nav-close').click(function(){
+        $('.navbar div').removeClass('show');
+    });    
+
+    $('.single').click(function(){
             $('.navbar div').removeClass('show');
-        });    
-
-        $('.single').click(function(){
-                $('.navbar div').removeClass('show');
+    });
+    $("#searchInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
-
-  });
+    });
+});
 </script>
 <script src="main.js" type="module"></script>
 </body>
