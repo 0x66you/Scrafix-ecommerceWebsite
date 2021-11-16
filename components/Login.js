@@ -20,6 +20,9 @@ export default {
             if(user){
                 this.setissignedin(true);
                 this.setusername(user.email);
+            }else{
+                this.email='';
+                this.password='';
             }
         })
     },
