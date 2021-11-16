@@ -5,7 +5,7 @@ Scrafix 是我在2021年11月中完成的購物網站。<br>
 我的目標是利用vue框架寫出一個<strong>分工明確</strong>的網頁，<br>
 每個vue元件要可以被<strong>重複利用</strong>，<br>
 或是有某個<strong>特定功能</strong>因此必須獨立出來一個.js檔。<br>
-設計上，商品展示列參考pchome設計
+設計上，商品展示列參考pchome設計。
 <br>
 <pre>
 root/
