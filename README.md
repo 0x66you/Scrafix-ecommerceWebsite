@@ -43,6 +43,6 @@ root/
   <li>使用者登入登出</li>
   <li>商品加入購物車</li>
   <li>vuex集中管理元件data</li>
-  <li>vue-router切換頁面</li>
+  <li>vue-router切換頁面(SPA)</li>
 </ul>
 
