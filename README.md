@@ -1,4 +1,4 @@
-# 電商平台 - Scrafix 購物 📎<a href="https://0x66you.github.io/Scrafix-ecommerceWebsite">點我前往</a>
+# 電商平台 - Scrafix 購物 
 <p align="center"><img src="https://i.ibb.co/wpjp0LR/LIST-UM.png" width="860" alt="workerize"></p>
 <h3>作品說明</h3>
 Scrafix 是我在2021年11月中完成的購物網站。<br>
